@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [free crm application test automation test suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="free crmapp test cases (failed)">
+    <classes>
+      <class name="Testdata.Hometest">
+        <methods>
+          <include name="varifycontactlinktest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Testdata.Hometest -->
+      <class name="Testdata.Logintest">
+        <methods>
+          <include name="logintest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="loginpagetitletest"/>
+        </methods>
+      </class> <!-- Testdata.Logintest -->
+    </classes>
+  </test> <!-- free crmapp test cases (failed) -->
+</suite> <!-- Failed suite [free crm application test automation test suite] -->
